@@ -1,33 +1,45 @@
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .header,
-.footer {
+.footer,
+.body-1,
+.body-1-title,
+.body-1-subtext {
     background-color: #1F2937;
 }
 
 .header {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .quote-block {
     background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .get-going {
     background-color: #3882F6;
+    display: flex;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding: 8px;
 }
 
 ul {
     list-style: none;
     font-size: 18px;
+    display: flex;
+    flex-direction: row;
 }
 
+div, quote {
+    padding-left: 10%;
+    padding-right: 10%;
+}
