@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+}
+
+.get-going {
+    background-color: #3882F6;
+}
