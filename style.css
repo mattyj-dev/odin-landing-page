@@ -28,7 +28,7 @@
 
 .get-going {
     background-color: #3882F6;
-    display: flex;
+    block-size: 250px;
 }
 
 a {
