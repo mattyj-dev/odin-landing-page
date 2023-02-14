@@ -27,8 +27,29 @@
 }
 
 .get-going {
-    background-color: #3882F6;
-    block-size: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.wrapper {
+    background-color: #3882f6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-going-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.get-going-subtext {
+    color: white;
 }
 
 a {
@@ -100,4 +121,24 @@ div, quote {
     margin-left: 75px;
     margin-right: 75px;
     margin-bottom: 75px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    margin-left: 650px;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: -45px;
+    border-color: white;
+    border-width: 1px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 30px;
 }
