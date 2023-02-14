@@ -6,6 +6,10 @@
     background-color: #1F2937;
 }
 
+.logo {
+    margin-top: 20px;
+}
+
 .header {
     font-size: 24px;
     color: #f9faf8;
@@ -92,9 +96,9 @@ div, quote {
 .body-1 {
     display: flex;
     flex: 1;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
     flex-wrap: wrap;
     padding-bottom: 50px;
 }
