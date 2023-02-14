@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .header,
 .footer,
 .body-1,
@@ -63,8 +67,8 @@ a {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid blue;
     border-radius: 10px;
 
@@ -122,8 +126,8 @@ div, quote {
 .info-container {
     display: flex;
     justify-content: center;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 275px;
+    margin-right: 275px;
     margin-bottom: 75px;
 }
 
